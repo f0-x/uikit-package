@@ -7,8 +7,11 @@ on:
  push:
     branches:
       - dev
+name: Node.js Package
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -17,8 +20,8 @@ jobs:
       - run: npm ci
       - run: npm test
 
-    publish-gpr:
-      needs: build
+  publish-gpr:
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       packages: write
