@@ -1,5 +1,5 @@
 {
-  "name": "@f0-x/ui-kit-open-source",
+  "name": "@f0-x/uikit-package",
   "version": "1.0.0",
   "engines": {
     "node": ">=16",
