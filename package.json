@@ -1,11 +1,14 @@
 {
-  "name": "@amityco/ui-kit-open-source",
-  "version": "2.15.0",
+  "name": "@f0-x/ui-kit-open-source",
+  "version": "1.0.0",
   "engines": {
     "node": ">=16",
     "npm": ">=7"
   },
   "main": "build/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@f0-x"
+  },
   "files": [
     "build"
   ],
