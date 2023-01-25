@@ -7,7 +7,7 @@
   },
   "main": "build/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@f0-x:registry": "https://npm.pkg.github.com/"
   },
   "files": [
     "build"
