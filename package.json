@@ -1,6 +1,6 @@
 {
   "name": "@f0-x/uikit-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "node": ">=16",
     "npm": ">=7"
